@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-950" id="body1">
+    <div class="bg-zinc-800 flex justify-between py-3">
+        <div>
+            <h1 class="text-3xl text-white pl-3 font-serif">Vikram</h1>
+        </div>
+        <div class="w-12 h-12 " id="menu">
+            <button onclick="menu()"><img src="img/menu.png" alt="" class=""></button>
+        </div>
+        <div class="flex justify-end" >
+        <nav class="  py-2 " id="nav1">
+            <a href="#" onclick="home()" class="font-bold font-base text-white hover:text-orange-600 px-4">Home</a>
+            <a href="#" onclick="contact()" class="font-bold font-base text-white hover:text-orange-600 px-4">Contact</a>
+            <a href="#" onclick="about()" class="font-bold font-base text-white hover:text-orange-600 px-4">About</a>
+            <a href="#" onclick="portfolio()" class="font-bold font-base text-white hover:text-orange-600 px-4">Resume</a>
+            
+        </nav>
+        </div>
+    </div>
+
+    <div class="pt-40 pl-7 " id="text1" >
+        <div class="grid grid-cols-2" id="text2">
+            <div class="text-white text-6xl col-start-1">
+                <h1 class="text-blue-600">Welcome</h1>
+                <h1>HI I am <b class="text-red-700">VIKRAM</b></h1>
+                <P class="text-blue-500">a Developer.</P>
+
+            </div>
+            <p class="text-white pt-0 font-sans leading-loose text-lg mt-10 col-start-1" id="text3">
+                A web developer is a programmer who develops World Wide Web applications using a client 
+                server model. The applications typically use HTML, CSS, and JavaScript.
+            </p>
+
+            <div class="h-60 w-60  col-end-7 pr-40  "  >
+                <img src="img/bc1.png" alt="" class="absolute bottom-0 right-0 " id="img1">
+            </div>
+        </div>
+       
+    </div>
+
+    
+</body>
+</html>
