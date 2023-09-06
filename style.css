@@ -101,7 +101,7 @@
         text-align: center;
     }
     #text1{
-        position:absolute;
+        position:relative;
         right: 15px;
         top: -20px;
        
